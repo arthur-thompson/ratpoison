@@ -1,0 +1,8 @@
+bind t exec st
+bind b exec firefox
+escape s-space
+
+exec $HOME/.fehbg &
+exec /usr/share/doc/ratpoison/examples/sloppy
+
+
