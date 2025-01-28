@@ -1,8 +1,9 @@
-bind t exec st
+bind c exec urxvt
 bind b exec firefox
-escape s-space
+escape C-z
 
 exec $HOME/.fehbg &
-exec /usr/share/doc/ratpoison/examples/sloppy
 
-
+set bargravity c
+set border 3
+set fwcolor red
