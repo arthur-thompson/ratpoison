@@ -1,8 +1,8 @@
-bind c exec st
+bind c exec xterm
 bind b exec firefox
 #escape C-z
 escape Super_L
-bind S-s-Return exec dmenu_run
+bind s-Return exec rofi -show drun
 
 exec $HOME/.fehbg
 exec ~/bar.sh
