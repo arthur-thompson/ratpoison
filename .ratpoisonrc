@@ -1,14 +1,17 @@
-bind c exec xterm
+exec killall dzen2
+
+bind c exec st
 bind b exec firefox
 #escape C-z
 escape Super_L
 bind s-Return exec rofi -show drun
+bind s-space exec dmenu_run
 
 exec $HOME/.fehbg
-exec ~/bar.sh
+exec ~/panel.sh
 
 set bargravity c
 set border 3
 set fwcolor red
 
-set padding 5 21 5 5
+set padding 5 19 5 5
